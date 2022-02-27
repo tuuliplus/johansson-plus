@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
@@ -14,7 +13,7 @@ const Home: NextPage = () => {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
       </Head>
       <main className={styles.main}>
-        <Image src="/icon-384.png" alt="Johansson Plus Logo" width={192} height={192} />
+        <img src="/icon-384.png" alt="Johansson Plus Logo" width="192px" height="192px"></img>
         <h1 className={styles.title}>
           Johansson Plus
         </h1>
