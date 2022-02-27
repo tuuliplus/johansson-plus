@@ -27,7 +27,7 @@ const Home: NextPage = () => {
               <p>Services? We have services!</p>
             </a>
           </Link>
-            <a href="https://github.com/johansson-plus" className={styles.card}>
+            <a href="https://github.com/johansson-plus" target="_blank" className={styles.card} rel="noopener">
               <h2>Github &rarr;</h2>
               <p>You Github? We Github!</p>
             </a>
