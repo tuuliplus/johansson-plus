@@ -13,7 +13,11 @@ const Home: NextPage = () => {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
       </Head>
       <main className={styles.main}>
-        <img src="/icon-384.png" alt="Johansson Plus Logo" width="192px" height="192px"></img>
+        <picture>
+          <source srcSet="/icon-384.webp" type="image/webp"></source>
+          <source srcSet="/icon-384.png" type="image/png"></source>
+          <img src="/icon-384.png" alt="Johansson Plus Logo" width="192px" height="192px"></img>
+        </picture>
         <h1 className={styles.title}>
           Johansson Plus
         </h1>
