@@ -14,9 +14,9 @@ const Home: NextPage = () => {
       </Head>
       <main className={styles.main}>
         <picture>
-          <source srcSet="/icon-384.webp" type="image/webp"></source>
-          <source srcSet="/icon-384.png" type="image/png"></source>
-          <img src="/icon-384.png" alt="Johansson Plus Logo" width="192px" height="192px"></img>
+          <source srcSet="/icon-384.webp" type="image/webp" />
+          <source srcSet="/icon-384.png" type="image/png" />
+          <img src="/icon-384.png" alt="Johansson Plus Logo" width="192px" height="192px" />
         </picture>
         <h1 className={styles.title}>
           Johansson Plus
