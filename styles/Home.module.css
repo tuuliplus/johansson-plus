@@ -24,8 +24,8 @@
 .footer a:hover,
 .footer a:focus,
 .footer a:active {
-  color: #8b4513;
-  border-bottom: 2px solid #8b4513;
+  color: #a0522d;
+  border-bottom: 2px solid #a0522d;
   transition: color 0.15s ease;
 }
 
@@ -69,8 +69,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #8b4513;
-  border-color: #8b4513;
+  color: #a0522d;
+  border-color: #a0522d;
 }
 
 .card h2 {
