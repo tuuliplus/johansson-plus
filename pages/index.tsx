@@ -45,7 +45,7 @@ const Home: NextPage = () => {
           <a href="https://tietopalvelu.ytj.fi/yritystiedot.aspx?yavain=2353885&tarkiste=C9219A323832200A90459D06ACE2A65D20464FA5">FI24374066</a>
           <br/>
           <br/>
-          Helsinki, Finland
+          Turku, Finland
         </p>
         <p>
           Aleksi Johansson
