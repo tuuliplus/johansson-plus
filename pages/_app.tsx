@@ -4,14 +4,7 @@ import { useEffect } from 'react'
 import TagManager from 'react-gtm-module'
 
 const tagManagerArgs = {
-  gtmId: 'GTM-W7K2939',
-  auth: 'U_vpzY9li4EGOIxcHUPH0Q',
-  preview: 'env-3'
-}
-
-if (process.env.NODE_ENV == 'production') {
-  tagManagerArgs.auth = 'G7DaCt68dZYo3M8G_aij-Q';
-  tagManagerArgs.preview = 'env-1';
+  gtmId: 'GTM-W7K2939'
 }
 
 function MyApp({ Component, pageProps }: AppProps) {
