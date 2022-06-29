@@ -51,7 +51,7 @@ const Home: NextPage = () => {
           Aleksi Johansson
           <br/>
           <br/>
-          Web Analytics and Technical SEO Consultant
+          Senior Web Analytics and Technical SEO Consultant
           <br/>
           <br/>
           <a href="mailto:aleksi@johansson.plus">aleksi@johansson.plus</a>
