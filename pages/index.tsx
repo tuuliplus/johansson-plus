@@ -42,7 +42,7 @@ const Home: NextPage = () => {
           Johansson Plus
           <br/>
           <br/>
-          <a href="https://tietopalvelu.ytj.fi/yritystiedot.aspx?yavain=2353885&tarkiste=C9219A323832200A90459D06ACE2A65D20464FA5">FI24374066</a>
+          <a href="https://tietopalvelu.ytj.fi/yritys/2437406-6">FI24374066</a>
           <br/>
           <br/>
           Turku, Finland
