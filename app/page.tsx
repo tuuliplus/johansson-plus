@@ -1,24 +1,24 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import styles from '../styles/Home.module.css'
+import { Metadata } from 'next'
+import Link from 'next/link'
 
-const Home: NextPage = () => {
+export const metadata: Metadata = {
+  title: 'Johansson Plus',
+  description: 'Your help with the technical side of Web Analytics and SEO.',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
+}
+
+export default function Page() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Johansson Plus</title>
-        <meta
-          name="description"
-          content="Your help with the technical side of Web Analytics and SEO."
-        />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
-      </Head>
       <main className={styles.main}>
         <picture>
           <source srcSet="/icon-384.webp" type="image/webp" />
           <source srcSet="/icon-384.png" type="image/png" />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/icon-384.png"
             alt="Johansson Plus Logo"
@@ -67,7 +67,5 @@ const Home: NextPage = () => {
         </p>
       </footer>
     </div>
-  );
-};
-
-export default Home;
+  )
+}
