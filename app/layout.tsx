@@ -28,6 +28,9 @@ const gtmUrl = tagManagerArgs
   ? `https://www.googletagmanager.com/gtm.js?id=${tagManagerArgs.gtmId}&gtm_auth=${tagManagerArgs.auth}&gtm_preview=${tagManagerArgs.preview}&gtm_cookies_win=x`
   : undefined
 
+const fathomUrl = 'https://cdn.usefathom.com/script.js'
+const fathomSiteId = 'WKVAFXWQ'
+
 export default function RootLayout({
   children,
 }: {
@@ -37,6 +40,12 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
+        <Script
+          src={fathomUrl}
+          data-spa="auto"
+          data-site={fathomSiteId}
+          defer
+        />
         <Script
           async
           src={gtmUrl}
