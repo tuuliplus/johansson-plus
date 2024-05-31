@@ -31,7 +31,7 @@ const gtmUrl = tagManagerArgs
 const fathomUrl = 'https://cdn.usefathom.com/script.js'
 const fathomSiteId = 'WKVAFXWQ'
 
-const plausibleUrl = 'https://plausible.io/js/script.js'
+const plausibleUrl = 'https://plausible.io/js/script.outbound-links.js'
 const plausibleDomain = 'johansson.plus'
 
 const simpleAnalyticsUrl = 'https://scripts.simpleanalyticscdn.com/latest.js'
