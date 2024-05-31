@@ -35,6 +35,7 @@ const plausibleUrl = 'https://plausible.io/js/script.js'
 const plausibleDomain = 'johansson.plus'
 
 const simpleAnalyticsUrl = 'https://scripts.simpleanalyticscdn.com/latest.js'
+const simpleAnalyticsDisregardDnt = 'true'
 
 export default function RootLayout({
   children,
@@ -52,7 +53,12 @@ export default function RootLayout({
           defer
         />
         <Script defer src={plausibleUrl} data-domain={plausibleDomain} />
-        <Script async defer src={simpleAnalyticsUrl} />
+        <Script
+          data-collect-dnt={simpleAnalyticsDisregardDnt}
+          async
+          defer
+          src={simpleAnalyticsUrl}
+        />
         <Script
           async
           src={gtmUrl}
